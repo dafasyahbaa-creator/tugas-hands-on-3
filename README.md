@@ -1,5 +1,5 @@
 **Nama :** M.Daffa S.F.P.N  
-**Kelas :** RM 24 A  
+**Kelas :** RM 23 A  
 **NIM :** 24552011326
 
 # Tugas Hands-On 3: Pandas Lanjutan
