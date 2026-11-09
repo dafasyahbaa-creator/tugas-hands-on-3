@@ -1,0 +1,21 @@
+kolom,tipe,n_missing,n_unik,deskripsi
+student_id,object,0,800,ID siswa (kunci unik)
+usia,Int64,22,7,Usia siswa (tahun)
+jenis_kelamin,category,24,2,Jenis kelamin
+jenis_sekolah,category,21,2,Negeri atau Swasta
+pendidikan_orang_tua,category,27,5,Pendidikan terakhir orang tua
+pekerjaan_orang_tua,category,23,6,Pekerjaan orang tua
+jam_belajar_per_minggu,float64,27,42,Jam belajar per minggu (outlier dipotong per jenis sekolah)
+persentase_kehadiran,float64,26,415,Persentase kehadiran (0-100)
+ikut_ekskul,category,34,2,Ikut ekstrakurikuler (Ya/Tidak)
+akses_internet,category,43,2,Punya akses internet (Ya/Tidak)
+les_privat,category,24,2,Ikut les privat (Ya/Tidak)
+waktu_tempuh_menit,float64,30,145,Waktu tempuh ke sekolah (menit)
+nilai_matematika,Float64,8,80,Nilai matematika (0-100)
+nilai_bahasa_indonesia,Float64,6,69,Nilai bahasa Indonesia (0-100)
+nilai_ipa,Float64,8,83,Nilai IPA (0-100)
+nilai_ips,Float64,5,79,Nilai IPS (0-100)
+nilai_bahasa_inggris,Float64,8,87,Nilai bahasa Inggris (0-100)
+nilai_rata_rata,float64,5,299,"Rata-rata lima nilai mapel (TIDAK dipakai sebagai fitur, penyebab leakage)"
+status_kelulusan,category,0,2,Lulus atau Tidak Lulus (target asli)
+is_lulus,int64,0,2,Target numerik: 1 jika Lulus
